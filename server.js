@@ -9,7 +9,7 @@ const { response } = require('express');
 const {CatagoryData} = require('./Catagory_Data')
 const {CoverData} = require('./CoverData')
 
-const PORT = process.env.PORT | 3001;
+const PORT = process.env.PORT || 3001;
 
 // const db=knex({
 //   client: 'pg',
