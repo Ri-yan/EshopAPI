@@ -1,0 +1,655 @@
+const p1 ='https://raw.githubusercontent.com/Ri-yan/assets/main/Eshop/Pics/Product1/p1.webp?token=GHSAT0AAAAAABRLUAA6TI7LG5HLMSFMVMQ6YROAVWQ';
+const p2 ='https://raw.githubusercontent.com/Ri-yan/assets/main/Eshop/Pics/Product1/p2.webp?token=GHSAT0AAAAAABRLUAA6PDQO57Q7POX7ZY3IYROAWOQ';
+const p3 ='https://raw.githubusercontent.com/Ri-yan/assets/main/Eshop/Pics/Product1/p3.webp?token=GHSAT0AAAAAABRLUAA7CSBR4JZPMECRQ4PGYROAW5Q';
+const p4 ='https://raw.githubusercontent.com/Ri-yan/assets/main/Eshop/Pics/Product1/p4.webp?token=GHSAT0AAAAAABRLUAA6YH3WVIOXFJN7ZLBGYROAW7A';
+
+const CatagoryData=[
+    {
+        Catagory_name:'Mobiles and Tablets',
+        Catagor_Products:[
+                            {
+                                id:1,
+                                product_preview_tile:p1,
+                                name:'The Pen',
+                                manufacturer:'ABC',
+                                previews:[
+                                            {
+                                                image:p1
+                                            },
+                                            {
+                                                image:p2
+                                            },
+                                            {
+                                                image:p3
+                                            },
+                                            {
+                                                image:p1
+                                            },
+                                            {
+                                                image:p4
+                                            }
+                                        ],   
+                                description_short:'',
+                                description_long:'',
+                                feature:'',
+                                price:'',
+                                discount:'',
+                                availability:'none',
+                                    },
+                                    {
+                                        id:2,
+                                        product_preview_tile:p1,
+                                        name:'The Pen',
+                                        manufacturer:'ABC',
+                                        previews:[
+                                            {
+                                                image:p1
+                                            },
+                                            {
+                                                image:p2
+                                            },
+                                            {
+                                                image:p3
+                                            },
+                                            {
+                                                image:p1
+                                            },
+                                            {
+                                                image:p4
+                                            }
+                                        ],
+                                        description_short:'',
+                                        description_long:'',
+                                        feature:'',
+                                        price:'',
+                                        discount:'',
+                                        availability:'none',
+                                        
+                                    },{
+                                        name:'hello there'
+                                    }
+                                ]
+            
+    },
+    {
+        Catagory_name:'Fashion',
+        Catagor_Products:[
+                                    {
+                                        id:44,
+                                        product_preview_tile:p1,
+                                        name:'The Pen',
+                                        manufacturer:'ABC',
+                                        previews:[
+                                            {
+                                                image:p1
+                                            },
+                                            {
+                                                image:p2
+                                            },
+                                            {
+                                                image:p3
+                                            },
+                                            {
+                                                image:p1
+                                            },
+                                            {
+                                                image:p4
+                                            }
+                                        ],
+                                        description_short:'',
+                                        description_long:'',
+                                        feature:'',
+                                        price:'',
+                                        discount:'',
+                                        availability:'none',
+                                        
+                                    },
+                                    {
+                                        id:2,
+                                        product_preview_tile:p1,
+                                        name:'The Pen',
+                                        manufacturer:'ABC',
+                                        previews:[
+                                            {
+                                                image:p1
+                                            },
+                                            {
+                                                image:p2
+                                            },
+                                            {
+                                                image:p3
+                                            },
+                                            {
+                                                image:p1
+                                            },
+                                            {
+                                                image:p4
+                                            }
+                                        ],
+                                        description_short:'',
+                                        description_long:'',
+                                        feature:'',
+                                        price:'',
+                                        discount:'',
+                                        availability:'none',
+                                        
+                                    }
+                                ]
+            
+    },
+    {
+        Catagory_name:'Consumer Electronics',
+        Catagor_Products:[
+                                    {
+                                        id:1,
+                                        product_preview_tile:p1,
+                                        name:'The Pen',
+                                        manufacturer:'ABC',
+                                        previews:[
+                                            {
+                                                image:p1
+                                            },
+                                            {
+                                                image:p2
+                                            },
+                                            {
+                                                image:p3
+                                            },
+                                            {
+                                                image:p1
+                                            },
+                                            {
+                                                image:p4
+                                            }
+                                        ],
+                                        description_short:'',
+                                        description_long:'',
+                                        feature:'',
+                                        price:'',
+                                        discount:'',
+                                        availability:'none',
+                                        
+                                    },
+                                    {
+                                        id:2,
+                                        name:'The Pen',
+                                        manufacturer:'ABC',
+                                        previews:[
+                                            {
+                                                image:p1
+                                            },
+                                            {
+                                                image:p2
+                                            },
+                                            {
+                                                image:p3
+                                            },
+                                            {
+                                                image:p1
+                                            },
+                                            {
+                                                image:p4
+                                            }
+                                        ],
+                                        description_short:'',
+                                        description_long:'',
+                                        feature:'',
+                                        price:'',
+                                        discount:'',
+                                        availability:'none',
+                                        
+                                    }
+                                ]
+            
+    },
+    {
+        Catagory_name:'Footwear',
+        Catagor_Products:[
+                                    {
+                                        id:1111,
+                                        name:'The Pen',
+                                        manufacturer:'ABC',
+                                        previews:[
+                                            {
+                                                image:p1
+                                            },
+                                            {
+                                                image:p2
+                                            },
+                                            {
+                                                image:p3
+                                            },
+                                            {
+                                                image:p1
+                                            },
+                                            {
+                                                image:p4
+                                            }
+                                        ],
+                                        description_short:'',
+                                        description_long:'',
+                                        feature:'',
+                                        price:'',
+                                        discount:'',
+                                        availability:'none',
+                                        
+                                    },
+                                    {
+                                        id:1,
+                                        name:'The Pen',
+                                        manufacturer:'ABC',
+                                        previews:[
+                                            {
+                                                image:p1
+                                            },
+                                            {
+                                                image:p2
+                                            },
+                                            {
+                                                image:p3
+                                            },
+                                            {
+                                                image:p1
+                                            },
+                                            {
+                                                image:p4
+                                            }
+                                        ],
+                                        description_short:'',
+                                        description_long:'',
+                                        feature:'',
+                                        price:'',
+                                        discount:'',
+                                        availability:'none',
+                                        
+                                    }
+                                ]
+            
+    },
+    {
+        Catagory_name:'Home Furnishings',
+        Catagor_Products:[
+                                    {
+                                        id:420,
+                                        name:'The Pen',
+                                        manufacturer:'ABC',
+                                        previews:[
+                                            {
+                                                image:p1
+                                            },
+                                            {
+                                                image:p2
+                                            },
+                                            {
+                                                image:p3
+                                            },
+                                            {
+                                                image:p1
+                                            },
+                                            {
+                                                image:p4
+                                            }
+                                        ],
+                                        description_short:'',
+                                        description_long:'',
+                                        feature:'',
+                                        price:'',
+                                        discount:'',
+                                        availability:'none',
+                                        
+                                    },
+                                    {
+                                        id:1,
+                                        name:'The Pen',
+                                        manufacturer:'ABC',
+                                        previews:[
+                                            {
+                                                image:p1
+                                            },
+                                            {
+                                                image:p2
+                                            },
+                                            {
+                                                image:p3
+                                            },
+                                            {
+                                                image:p1
+                                            },
+                                            {
+                                                image:p4
+                                            }
+                                        ],
+                                        description_short:'',
+                                        description_long:'',
+                                        feature:'',
+                                        price:'',
+                                        discount:'',
+                                        availability:'none',
+                                        
+                                    }
+                                ]
+            
+    },
+    {
+        Catagory_name:'Books',
+        Catagor_Products:[
+                                    {
+                                        id:1,
+                                        name:'The Pen',
+                                        manufacturer:'ABC',
+                                        previews:[
+                                            {
+                                                image:p1
+                                            },
+                                            {
+                                                image:p2
+                                            },
+                                            {
+                                                image:p3
+                                            },
+                                            {
+                                                image:p1
+                                            },
+                                            {
+                                                image:p4
+                                            }
+                                        ],
+                                        description_short:'',
+                                        description_long:'',
+                                        feature:'',
+                                        price:'',
+                                        discount:'',
+                                        availability:'none',
+                                        
+                                    },
+                                    {
+                                        id:1,
+                                        name:'The Pen',
+                                        manufacturer:'ABC',
+                                        previews:[
+                                            {
+                                                image:p1
+                                            },
+                                            {
+                                                image:p2
+                                            },
+                                            {
+                                                image:p3
+                                            },
+                                            {
+                                                image:p1
+                                            },
+                                            {
+                                                image:p4
+                                            }
+                                        ],
+                                        description_short:'',
+                                        description_long:'',
+                                        feature:'',
+                                        price:'',
+                                        discount:'',
+                                        availability:'none',
+                                        
+                                    }
+                                ]
+            
+    },
+    {
+        Catagory_name:'Groceries',
+        Catagor_Products:[
+                                    {
+                                        id:1,
+                                        name:'The Pen',
+                                        manufacturer:'ABC',
+                                        previews:[
+                                            {
+                                                image:p1
+                                            },
+                                            {
+                                                image:p2
+                                            },
+                                            {
+                                                image:p3
+                                            },
+                                            {
+                                                image:p1
+                                            },
+                                            {
+                                                image:p4
+                                            }
+                                        ],
+                                        description_short:'',
+                                        description_long:'',
+                                        feature:'',
+                                        price:'',
+                                        discount:'',
+                                        availability:'none',
+                                        
+                                    },
+                                    {
+                                        id:1,
+                                        name:'The Pen',
+                                        manufacturer:'ABC',
+                                        previews:[
+                                            {
+                                                image:p1
+                                            },
+                                            {
+                                                image:p2
+                                            },
+                                            {
+                                                image:p3
+                                            },
+                                            {
+                                                image:p1
+                                            },
+                                            {
+                                                image:p4
+                                            }
+                                        ],
+                                        description_short:'',
+                                        description_long:'',
+                                        feature:'',
+                                        price:'',
+                                        discount:'',
+                                        availability:'none',
+                                        
+                                    }
+                                ]
+            
+    },
+    {
+        Catagory_name:'Stationary and Craft',
+        Catagor_Products:[
+                                    {
+                                        id:1,
+                                        name:'The Pen',
+                                        manufacturer:'ABC',
+                                        previews:[
+                                            {
+                                                image:p1
+                                            },
+                                            {
+                                                image:p2
+                                            },
+                                            {
+                                                image:p3
+                                            },
+                                            {
+                                                image:p1
+                                            },
+                                            {
+                                                image:p4
+                                            }
+                                        ],
+                                        description_short:'',
+                                        description_long:'',
+                                        feature:'',
+                                        price:'',
+                                        discount:'',
+                                        availability:'none',
+                                        
+                                    },
+                                    {
+                                        id:1,
+                                        name:'The Pen',
+                                        manufacturer:'ABC',
+                                        previews:[
+                                            {
+                                                image:p1
+                                            },
+                                            {
+                                                image:p2
+                                            },
+                                            {
+                                                image:p3
+                                            },
+                                            {
+                                                image:p1
+                                            },
+                                            {
+                                                image:p4
+                                            }
+                                        ],
+                                        description_short:'',
+                                        description_long:'',
+                                        feature:'',
+                                        price:'',
+                                        discount:'',
+                                        availability:'none',
+                                        
+                                    }
+                                ]
+            
+    },
+    {
+        Catagory_name:'Baby Products',
+        Catagor_Products:[
+                                    {
+                                        id:1,
+                                        name:'The Pen',
+                                        manufacturer:'ABC',
+                                        previews:[
+                                            {
+                                                image:p1
+                                            },
+                                            {
+                                                image:p2
+                                            },
+                                            {
+                                                image:p3
+                                            },
+                                            {
+                                                image:p1
+                                            },
+                                            {
+                                                image:p4
+                                            }
+                                        ],
+                                        description_short:'',
+                                        description_long:'',
+                                        feature:'',
+                                        price:'',
+                                        discount:'',
+                                        availability:'none',
+                                        
+                                    },
+                                    {
+                                        id:1,
+                                        name:'The Pen',
+                                        manufacturer:'ABC',
+                                        previews:[
+                                            {
+                                                image:p1
+                                            },
+                                            {
+                                                image:p2
+                                            },
+                                            {
+                                                image:p3
+                                            },
+                                            {
+                                                image:p1
+                                            },
+                                            {
+                                                image:p4
+                                            }
+                                        ],
+                                        description_short:'',
+                                        description_long:'',
+                                        feature:'',
+                                        price:'',
+                                        discount:'',
+                                        availability:'none',
+                                        
+                                    }
+                                ]
+            
+    },
+    {
+        Catagory_name:'Hardwares and essentials',
+        Catagor_Products:[
+                                    {
+                                        id:1,
+                                        name:'The Pen',
+                                        manufacturer:'ABC',
+                                        previews:[
+                                            {
+                                                image:p1
+                                            },
+                                            {
+                                                image:p2
+                                            },
+                                            {
+                                                image:p3
+                                            },
+                                            {
+                                                image:p1
+                                            },
+                                            {
+                                                image:p4
+                                            }
+                                        ],
+                                        description_short:'',
+                                        description_long:'',
+                                        feature:'',
+                                        price:'',
+                                        discount:'',
+                                        availability:'none',
+                                        
+                                    },
+                                    {
+                                        id:1,
+                                        name:'The Pen',
+                                        manufacturer:'ABC',
+                                        previews:[
+                                            {
+                                                image:p1
+                                            },
+                                            {
+                                                image:p2
+                                            },
+                                            {
+                                                image:p3
+                                            },
+                                            {
+                                                image:p1
+                                            },
+                                            {
+                                                image:p4
+                                            }
+                                        ],
+                                        description_short:'',
+                                        description_long:'',
+                                        feature:'',
+                                        price:'',
+                                        discount:'',
+                                        availability:'none',
+                                        
+                                    }
+                                ]
+            
+    }
+
+]
+module.exports={CatagoryData}
